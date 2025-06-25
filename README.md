@@ -18,8 +18,9 @@ Endpoint POST /roll:
 JSON body for request:
 
 ```json
-{
-	"dices": [4, 8] // Array of dice sides
+{	
+	"_comment": "Array of dice sides",
+	"dices": [4, 8]
 }
 ```
 
